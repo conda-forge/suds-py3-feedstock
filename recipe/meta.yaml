@@ -1,5 +1,5 @@
 {% set name = "suds-py3" %}
-{% set version = "1.4.1.0" %}
+{% set version = "1.4.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-    sha256: 3b167cbcc032a9c8f04712323bfaaf3b4d2913b5ef71167c57db6ccd170910da
+    sha256: b1ab1e0bf8be311b6c375e10feeb915b4dd9784decfede1c5ad43f5f5ef99d93
   - path: .
 
 build:

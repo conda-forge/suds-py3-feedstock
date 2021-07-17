@@ -18,13 +18,17 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6,<4
   run:
-    - python
+    - python >=3.6,<4
 
 test:
+  requires:
+    - pip
   imports:
     - suds
+  commands:
+    - pip check
 
 about:
   home: https://github.com/cackharot/suds-py3
